@@ -1,7 +1,11 @@
 var express = require('express');
 var app = express();
 
+var myLogger = require('./middleware/my-logger');
+
 app.use(express.static('public'));
+
+app.use(myLogger);
 
 app.get('/', function (req, res) {
 	res.send('Hello World!');
