@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-test-webserver",
+  "description": "A testing nodejs webserver.",
+  "main": "",
+  "authors": [
+    "Asif Mushtaq"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/asifhk78/nodejs-test-webserver",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
